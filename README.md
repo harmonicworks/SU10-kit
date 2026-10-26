@@ -4,7 +4,7 @@
 
 The SU10 is a small 1990s phrase sampler with 384 KB of memory and no official way to get sounds in, other than recording them. SU10-Kit lets you put your own WAV files on its pads, choose quality, loop and volume per pad, and save a bulk dump that the SU10 loads like one of its own backups. It also works the other way: open a dump and get every pad back as a WAV.
 
-- **[Open SU10-Kit-Builder in your browser](https://harmonicworks.github.io/su10-kit/)**: nothing to install
+- **[Open SU10-Kit-Builder in your browser](https://harmonicworks.org/su10-kit/)**: nothing to install
 - **`su10kit.py`**: the same engine as a command-line tool (Python 3, no extra packages)
 
 > Not affiliated with Yamaha. Tested on one SU10 so far, so please share how it works on yours.
@@ -19,7 +19,7 @@ The SU10 is a small 1990s phrase sampler with 384 KB of memory and no official w
 
 ## Building a kit in the browser
 
-1. Open [SU10-Kit-Builder](https://harmonicworks.github.io/su10-kit/). It starts with an example kit you can play.
+1. Open [SU10-Kit-Builder](https://harmonicworks.org/su10-kit/). It starts with an example kit you can play.
 2. Drop WAV files on the pads. Drop several at once to fill the empty pads in order.
 3. Per pad, choose:
    - **Quality**: High, Standard, Long or Extra long (more quality = less sampling time)
