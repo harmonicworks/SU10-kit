@@ -1,0 +1,5 @@
+*.syx
+!tests/data/*.syx
+*preview/
+__pycache__/
+.DS_Store

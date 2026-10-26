@@ -1,0 +1,13 @@
+# Example kit list for su10kit.py. Put your WAV files next to this file and run:
+#   python3 su10kit.py build examples/example-kit.txt
+
+# Machine settings stored in the dump (optional)
+channel 10
+record Long mono
+
+pad 1: kick.wav      Long      mono    one-shot  autotrim  normalize
+pad 2: snare.wav     Long      mono    one-shot  autotrim  normalize
+pad 3: bell.wav      High      mono    one-shot  normalize -3
+pad 4: bass.wav      Standard  mono    loop      vol 90
+pad 5: strings.wav   High      stereo  endloop 1.25  normalize
+pad 6: bell.wav      High      mono    one-shot  pitch 7
